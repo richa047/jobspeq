@@ -1,0 +1,20 @@
+1.create todo project
+2.to create default tables  use migrate ie python3 manage.py migrate
+3.python3 manage.py createsuperuser
+note -now u can access the admin panel
+4.create app named tasks
+5 in setting.py of project(inner folder) declare the app.
+6.create urls.py in app
+7.write code in view.py(tasks app) and
+ write that path in urls.py(task app)
+  then include this urls.py in 
+  urls.py(todoa proj inner folder).
+8.create template folder uner task app
+9.create model
+10 make migration,migrate,create superuser
+11.register the model in admin.py(task app) so that you can see the table in admin panel
+note once u see task on admin panel u have to reder it from there to the template.
+12. use modal forms.
+13 .In task app create modal form ie form.py
+note- when we specify what model we want replicate it will go and create all form fields for us
+14.once u have form import it in view and from view import it in template

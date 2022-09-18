@@ -1,0 +1,42 @@
+ login to project ui-  testwork801,richa123
+superuser-c@gmail.com,c
+
+candidate login-candidate@xyz.com, richa123s
+faculty@xyz.com,richa123
+
+employer@xyz.com, richa123
+----------------------------------------------------------------
+1.creating anaconda en snaowflakes and activating it.
+
+/media/richa/New Volume/connect$ conda create --name my_jobspeq
+/media/richa/New Volume/connect$ conda deactivate
+/media/richa/New Volume/connect$ conda create --name my_jobspeq
+/media/richa/New Volume/connect$ conda env list
+/media/richa/New Volume/connect$ conda activate my_jobspeq
+
+2.note(env shd be on the same level of app,manage.py ie it should be under outer project folder)
+--------------------------------------------------------------------
+Git 
+1.git clone  https://github.com/Connectyfi/connectyfi.git
+1.git clone   git@github.com:Connectyfi/connectyfi.git
+2.git init
+3.git branch
+-------------------------------------------------------------------------
+3.1) This installs all dependencies listed in requirements.txt file.
+     pip install -r requirements.txt
+2)check django version
+    python -m django --version
+3) python version
+    python --version
+
+    Push code to branch
+    1./media/richa/New Volume/connect_new/connectyfi$ git add .
+    2./media/richa/New Volume/connect_new/connectyfi$ git commit -m "accomplishment"
+    
+    3. /media/richa/New Volume/connect_new/connectyfi$git push
+    
+    Push code to branch
+    1./media/richa/New Volume/connect_new/connectyfi$ git add .
+    2./media/richa/New Volume/connect_new/connectyfi$ git commit -m "accomplishment"
+    
+    3. /media/richa/New Volume/connect_new/connectyfi$git push
